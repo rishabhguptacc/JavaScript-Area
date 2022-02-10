@@ -5,24 +5,35 @@ function calculate(){
     length = document.getElementById('len').value;
     width = document.getElementById('wid').value;
 
- 
+ console.log(length);
+ console.log(width);
 
-   
+   parseInt(length);
+   parseInt(width);
+
 
 
     document.getElementById('output').innerHTML = 
     "<p>Area is " +
-    area() + " sq. mtr. </p><br>" +
+    area(length, width) + " sq. mtr. </p><br>" +
     "<p>Perimeter is " +
-    perimeter() + " mtr. </p>"
+    perimeter(length,width) + " mtr. </p>"
 }
 
-  function area(){
+  function area(length, width){
+    console.log(length);
+    console.log(width);
     return length*width;
+    
   }
 
 
- function perimeter(){
-     return 2*( length + width);
+ function perimeter(length, width){
+    console.log(length);
+    console.log(width);
+     var semiPeri =  parseInt(length) + parseInt(width);
+    // var semiPeri = length + width;
+     return 2*semiPeri;
  }
 
+1

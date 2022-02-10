@@ -18,8 +18,8 @@
     margin-left: 5em;
 }
 .unit{
-    margin-right: 5px;
-    float: right;
+    margin-left: 5px;
+    /* float: right; */
 }
 .ip{
     padding: 6px;
