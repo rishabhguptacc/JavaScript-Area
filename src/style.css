@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.block1{
+    margin: 15%;
+
+}
+
+#length{
+    overflow: hidden;
+    display: inline;;
+}
+
+.input{
+    width: 25%;
+    margin-left: 5em;
+}
+.unit{
+    margin-right: 5px;
+    float: right;
+}
+.ip{
+    padding: 6px;
+    /* float: right; */
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 5px;
+    /* vertical-align: super; */
+    
+}
+
+#btn{
+    padding: 10px 20px;
+    background: rgba(182, 182, 182, 0.755);
+    text-align: center;
+    margin-left: 15em;
+    border-radius: 5px;
+}
